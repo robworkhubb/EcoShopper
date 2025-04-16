@@ -1,0 +1,38 @@
+{
+  "name": "EcoShopper",
+  "displayName": "EcoShopper",
+  "expo": {
+    "name": "EcoShopper",
+    "slug": "ecoshopper",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4CAF50"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ecoshopper.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#4CAF50"
+      },
+      "package": "com.ecoshopper.app"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "description": "Un'applicazione per aiutare gli utenti a fare scelte di acquisto più sostenibili",
+    "primaryColor": "#4CAF50"
+  }
+} 
